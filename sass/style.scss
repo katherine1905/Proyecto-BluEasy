@@ -1,0 +1,336 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+@mixin fuentes ($font, $FontSize) {
+
+    font-size: $FontSize;
+    font-family:$font ;
+    
+}
+
+$celeste: #4bcaff;
+$gris: #515f67;
+$negro: #353f46;
+$Dodger-blue:#1E90FF;
+$phone : '(max-width: 480px)';
+$White: #FFFFFF;
+$sombreado:#708090;
+$claroG:#E0E0E0;
+$indigo: #9E9E9E;
+
+
+body{
+   
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+    
+}
+
+.fot-header{ // foto para el header
+
+    background: url(../imgs/header.jpg);
+   width: 100%;
+   height: 40em;
+
+}
+
+.palabra-logo{ //color de la palabra "E" en blueasy
+
+    color: $Dodger-blue;
+  
+}
+ 
+.logo{ // el resto de letrs de blueasy
+color: $White;
+
+@include fuentes("MotoBolo", 30px);
+
+
+}
+
+.central-container{
+padding: 10% 18vw;
+@include respond-to($phone){
+    padding:  2vw;
+}
+
+}
+
+.col-img{ //imagenes 
+width: 100%;
+    margin: 15px 133px 30px;
+
+}
+
+.boton-title{
+
+    color: $White ;
+    margin: 13px 1px 30px;
+    @include fuentes("MotoBolo", 30px);
+    
+}
+
+.central-text{ // esto es el texto central 
+
+    color: $White;
+    text-transform: uppercase;
+    background-color: $gris;
+    @include fuentes("NotoRegular", 35px);
+    margin: -10px 1px 30px;
+
+
+
+}
+
+.container-S{ // este contenodr es para ppner azul a parte del SERICE
+    width: 105%;
+    height: 16em;
+    background-color: $celeste;
+
+
+}
+.bot-sub{ // ESTO ES PARA LAS PALABRAS COFFE.INSTANT...
+
+@include fuentes("NotoRegular", 24px );
+ color: $White;
+
+}
+
+.bot-text{ //Esto es para os textos que estan de bajo de las palabras COFFFE-INSTANT ...
+
+    @include fuentes("NotoRegular", 12px );
+ color: $White;
+}
+
+
+
+.row menu{
+
+    padding: 5px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.logo2{  //Es para la segunda seccion PORTAFOLIO
+    color: $gris ;
+    margin: 61px 41px 0px;
+    @include fuentes("MotoBolo", 30px);
+    
+    
+    }
+
+    .col1-sm { // Esto es para los botones de PORTAFOLIO
+
+        padding: 5px;
+        margin: 4px -260px 30px;
+        border: 0px;
+       
+        
+    }
+
+    .col-sm {  // Esto es para los botones de BLUEASY
+
+        padding: 5px;
+        
+        margin: -72px -530px -10px 595px;
+        border: 0px;
+
+    }
+
+
+    .title3{  //Es para lo del titulo  JUST DEFAULT SECTION
+        margin: -75px -110px -15px;
+        color: $claroG;
+        @include fuentes("NotoRegular", 35px );
+    }
+
+    .texto5{  //Es para  el texto que iria en lo de JUST DEFAULT SECTION
+
+        @include fuentes("NotoRegular", 20px );
+        color: $White;
+        margin: -110px 860px 40px 130px;
+        
+    }
+
+    .video{ // es el ideo
+
+        margin: -320px 500px 600px 700px;
+
+
+    }
+
+    .logo3{ /// Es para el titulo de TWITTER
+
+        margin: 40px 41px 0px;
+        @include fuentes("MotoBolo", 30px);
+        color: $White;
+
+    }
+
+    .twitter{ // ES la imagen del pajarito de twitter
+     width: 5%;
+      height: 8%;
+        margin: 54px 185px 0px;
+
+
+
+    }
+
+    
+    .texto6{ // Es el texto que iria en TWITTER
+        @include fuentes("NotoRegular", 20px );
+        color: $White;
+        margin: -100px 0px -246px -43px;
+        padding: 10%;
+        
+    }
+    .title7{ // Es para el titulo WHO IS JOHH DOE?
+        @include fuentes("NotoRegular", 37px );
+        color: $indigo;
+        margin: -820px 59px -389px -60px;
+        padding: 10%;
+        
+    }
+
+    .imagen-J{ // Es la imagen que iria en WHO IS JOHH DOE?
+
+        width: 105%;
+        height: 70%;
+          margin: 150px -12px 69px;
+  
+
+    }
+
+    .container-Just{// Esto es para agregare el color gris a la seccion de  JUST DEFAULT SECTION
+        width: 109%;
+        height: 40em;
+        background-color: $gris;
+        margin: 0px -12px 69px;
+  
+    }
+
+    .container-T{  // Esto es para agregare el color celeste a la seccion de TWITTER
+
+        width: 105%;
+        height: 20em;
+        background-color: $celeste;
+        margin: -75px -12px 69px;
+
+    } 
+
+    .texto8{// Esto es para el texto que iria en WHO IS JOHH DOE? 
+
+
+        @include fuentes("NotoRegular", 25px );
+        color: $claroG;
+        margin: -600px 12px 69px;
+
+    }
+
+    .logo5{// Esto es para el titulo TESTIMONIALS
+
+        @include fuentes("NotoRegular", 28px );
+        color: $negro;
+        margin: -220px 59px -389px -60px;
+        padding: 10%;
+
+    }
+    
+    .texto10{ // Esto es para el texto que iria en TESTIMONIALS
+
+        @include fuentes("NotoRegular", 25px );
+        color: $negro;
+        margin: 300px 59px 289px 40px;
+
+
+
+    }
+
+    .texto11{ // Esto es para el texto  que iria en azul en TESTIMONIALS
+
+        @include fuentes("NotoRegular", 15px );
+        color: $Dodger-blue;
+        margin: -270px 59px 289px 80px;
+    }
+
+    .texto12{
+
+        @include fuentes("NotoRegular", 15px );
+        color: $claroG;
+        margin: -320px 99px 489px 320px;
+        padding: 5%;
+    }
+
+    
+    .title15{// Esto es pra el titulo de CONTACT
+
+        @include fuentes("NotoRegular", 32px );
+        color: $negro;
+        margin: -420px 59px -300px -100px;
+        padding: 10%;
+
+    }
+    
+
+    .imagen-C{ // Es para la imagen que iria en CONTACT
+
+        width: 105%;
+        height: 45em;
+
+        margin: -270px 59px -389px -60px;
+
+
+    }
+
+    .input-group{ //Esto es para los campos de l full name e Email en conjunto
+
+        width: 80%;
+        margin: -500px 37px 328px -86px;
+
+    }
+
+    .input-field{// Esto es para los campos de l full name e Email
+
+
+ width: 53%;
+        padding: 8px 6px;
+        margin:21px 2px;
+        border-left: 0 ;
+        border-top: 0;
+        border-right: 0;
+        background: rgba(250, 250, 250, .7);
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .input-Message{ // Este es para donde esta para poner un mensaje
+        margin: -500px 37px 73px 210px;
+        padding: 73px 245px;
+        margin:21px 2px;
+        border-left: 0 ;
+        border-top: 0;
+        border-right: 0;
+        background: rgba(250, 250, 250, .7);
+        border-radius: 8px;
+        outline: none;
+    }
+
+    .submit-btn2{
+        margin: 8px;
+        
+        padding: 8px 28px;
+        cursor: pointer;
+        display: block;
+        background: rgba(250, 250, 250, .7);
+        
+        outline: none;
+        border-radius: 30px;
+        color: $gris ;
+   
+
+    }
+    

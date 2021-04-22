@@ -1,0 +1,279 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.fot-header {
+  background: url(../imgs/header.jpg);
+  width: 100%;
+  height: 40em;
+}
+
+.palabra-logo {
+  color: #1E90FF;
+}
+
+.logo {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-family: "MotoBolo";
+}
+
+.central-container {
+  padding: 10% 18vw;
+}
+@media only screen and (max-width: 480px) {
+  .central-container {
+    padding: 2vw;
+  }
+}
+
+.col-img {
+  width: 100%;
+  margin: 15px 133px 30px;
+}
+
+.boton-title {
+  color: #FFFFFF;
+  margin: 13px 1px 30px;
+  font-size: 30px;
+  font-family: "MotoBolo";
+}
+
+.central-text {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: #515f67;
+  font-size: 35px;
+  font-family: "NotoRegular";
+  margin: -10px 1px 30px;
+}
+
+.container-S {
+  width: 105%;
+  height: 16em;
+  background-color: #4bcaff;
+}
+
+.bot-sub {
+  font-size: 24px;
+  font-family: "NotoRegular";
+  color: #FFFFFF;
+}
+
+.bot-text {
+  font-size: 12px;
+  font-family: "NotoRegular";
+  color: #FFFFFF;
+}
+
+.row menu {
+  padding: 5px;
+  margin: 0px;
+  border: 0px;
+}
+
+.logo2 {
+  color: #515f67;
+  margin: 61px 41px 0px;
+  font-size: 30px;
+  font-family: "MotoBolo";
+}
+
+.col1-sm {
+  padding: 5px;
+  margin: 4px -260px 30px;
+  border: 0px;
+}
+
+.col-sm {
+  padding: 5px;
+  margin: -72px -530px -10px 595px;
+  border: 0px;
+}
+
+.title3 {
+  margin: -75px -110px -15px;
+  color: #E0E0E0;
+  font-size: 35px;
+  font-family: "NotoRegular";
+}
+
+.texto5 {
+  font-size: 20px;
+  font-family: "NotoRegular";
+  color: #FFFFFF;
+  margin: -110px 860px 40px 130px;
+}
+
+.video {
+  margin: -320px 500px 600px 700px;
+}
+
+.logo3 {
+  margin: 40px 41px 0px;
+  font-size: 30px;
+  font-family: "MotoBolo";
+  color: #FFFFFF;
+}
+
+.twitter {
+  width: 5%;
+  height: 8%;
+  margin: 54px 185px 0px;
+}
+
+.texto6 {
+  font-size: 20px;
+  font-family: "NotoRegular";
+  color: #FFFFFF;
+  margin: -100px 0px -246px -43px;
+  padding: 10%;
+}
+
+.title7 {
+  font-size: 37px;
+  font-family: "NotoRegular";
+  color: #9E9E9E;
+  margin: -820px 59px -389px -60px;
+  padding: 10%;
+}
+
+.imagen-J {
+  width: 105%;
+  height: 70%;
+  margin: 150px -12px 69px;
+}
+
+.container-Just {
+  width: 109%;
+  height: 40em;
+  background-color: #515f67;
+  margin: 0px -12px 69px;
+}
+
+.container-T {
+  width: 105%;
+  height: 20em;
+  background-color: #4bcaff;
+  margin: -75px -12px 69px;
+}
+
+.texto8 {
+  font-size: 25px;
+  font-family: "NotoRegular";
+  color: #E0E0E0;
+  margin: -600px 12px 69px;
+}
+
+.logo5 {
+  font-size: 28px;
+  font-family: "NotoRegular";
+  color: #353f46;
+  margin: -220px 59px -389px -60px;
+  padding: 10%;
+}
+
+.texto10 {
+  font-size: 25px;
+  font-family: "NotoRegular";
+  color: #353f46;
+  margin: 300px 59px 289px 40px;
+}
+
+.texto11 {
+  font-size: 15px;
+  font-family: "NotoRegular";
+  color: #1E90FF;
+  margin: -270px 59px 289px 80px;
+}
+
+.texto12 {
+  font-size: 15px;
+  font-family: "NotoRegular";
+  color: #E0E0E0;
+  margin: -320px 99px 489px 320px;
+  padding: 5%;
+}
+
+.title15 {
+  font-size: 32px;
+  font-family: "NotoRegular";
+  color: #353f46;
+  margin: -420px 59px -300px -100px;
+  padding: 10%;
+}
+
+.imagen-C {
+  width: 105%;
+  height: 45em;
+  margin: -270px 59px -389px -60px;
+}
+
+.input-group {
+  width: 80%;
+  margin: -500px 37px 328px -86px;
+}
+
+.input-field {
+  width: 53%;
+  padding: 8px 6px;
+  margin: 21px 2px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  background: rgba(250, 250, 250, 0.7);
+  border-radius: 8px;
+  outline: none;
+}
+
+.input-Message {
+  margin: -500px 37px 73px 210px;
+  padding: 73px 245px;
+  margin: 21px 2px;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  background: rgba(250, 250, 250, 0.7);
+  border-radius: 8px;
+  outline: none;
+}
+
+.submit-btn2 {
+  margin: 8px;
+  padding: 8px 28px;
+  cursor: pointer;
+  display: block;
+  background: rgba(250, 250, 250, 0.7);
+  outline: none;
+  border-radius: 30px;
+  color: #515f67;
+}
